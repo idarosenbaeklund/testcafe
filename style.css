@@ -1,0 +1,974 @@
+/*HER BLIVER GRID-AREA BESTEMT I FORHOLD TIL CLASSES I HTML*/
+
+/*om os grid*/
+.omos1 {grid-area: header;}
+
+.omos2 {grid-area:main;}
+
+.omos3{grid-area: main1;}
+
+.omos4 {grid-area:main2;}
+
+.omos5 {grid-area: main3;}
+
+.omos6 {grid-area:main4;}
+
+.footer {grid-area: footer;}
+
+/*om os grid slut*/
+
+/*forside grid*/
+
+.forside1 {grid-area: header;} /*HEADER*/
+ 
+.forside2 {   
+    grid-area: main1;}    /*STORT BILLEDE FOR OVEN*/
+
+.forside3 {
+    grid-area: main2;}  /*TEKST TIL EVENT*/
+
+.forside4 {
+    grid-area: main3;} /*BILLEDE TIL EVENT*/
+
+.forside5 {
+    grid-area: main4;} /*BILLEDE AF NACHOS*/
+
+.forside6 {
+    grid-area: main5;} /*BILLEDE AF BURGER*/
+
+.forside7 {
+    grid-area: main6;} /*TEKST TIL HISTORIE*/
+
+.forside8 {
+    grid-area: main7;} /*BILLEDE TIL HISTORIE*/
+
+.footer {
+    grid-area: footer;} /*FOOTER*/
+
+/*forside grid slut*/
+
+
+/*event grid*/
+.event1 {
+    grid-area: header;
+}
+
+.event2 {
+    grid-area: storimg;
+}
+
+.event3 {
+    grid-area: intro;
+}
+
+.event4 {
+    grid-area: img1;
+}
+
+.event5 {
+    grid-area: img2;
+}
+
+.event6 {
+    grid-area: img3;
+}
+
+.event7 {
+    grid-area: aside;
+}
+
+.event8 {
+    grid-area: img4;
+}
+
+.event9 {
+    grid-area: img5;
+}
+
+.event10 {
+    grid-area: img6
+}
+
+.event11 {
+    grid-area: footer;
+}
+
+/*event grid slut*/
+/*--------------------------------------GRID AREA SLUT--------------------------------------*/
+
+/*--------------------------------------Global start----------------------------------------*/
+
+
+
+h1 {
+    text-transform: uppercase;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+p,
+h3,
+li{
+    font-family: 'Roboto', sans-serif;
+}
+
+.omos3 p, .omos5 p {
+    text-align: left;
+}
+
+p {
+    text-align: center;
+}
+
+
+body{
+    background-color: #e3e2df;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER global : menuen og logo*/
+nav {
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #000000;
+    text-align: right;
+    height: 100px;
+    line-height: 100px;
+    background-color: #2d2c2c;
+    font-family: 'Roboto Slab', serif;
+}
+
+header img {
+    position: relative;
+    z-index: 2;
+    width: 58%;
+    float:left;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+    
+
+.menu {
+    margin: 0 30px 0 0;
+    width: 100%;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    margin-right: 1%;
+    line-height: 70px;
+    background-color: #2d2c2c;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 100px;
+    display: none;
+    width: 26px;
+    float: right;
+    color:#fff;
+}
+
+.menuneon{
+    color: #e56b63;
+    text-shadow: 0px 0px 10px #a62e26,
+        5px 5px 10px #a62e26,
+        0px 0px 20px #a62e26,
+        0px 0px 30px #a62e26,
+        0px 0px 40px #a62e26,
+        0px 0px 50px #a62e26;
+}
+
+
+#toggle {
+    display: none;
+}
+/*SLUT HEADER menu og logo*/
+
+
+
+/*DET STORE BILLEDE ØVERST PÅ SIDEN*/
+ .billede1{
+    width: 100%;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px black;
+}
+
+.centered h1 {font-size: 130%;}
+/*SLUT DET STORE BILLEDE ØVERST PÅ SIDEN*/
+
+/*FORSIDE*/
+
+
+/*NACHOS BILLEDE*/
+.nachos {
+    width: 100%;
+}
+
+
+
+/*SE ALLE EVENTS & LÆS HELE HISTORIEN KNAPPER*/
+
+.knap, .knap2 {
+     display: block;
+    margin: 0px auto;
+    width: 40%;
+    margin-bottom: 10px;
+    background-color: black;
+    padding: 3%;
+}
+
+.textonimg {
+     display: block;
+    margin: 0px auto;
+    width: 40%;
+    margin-bottom: 10px;
+    background-color: black;
+    padding: 3%;
+}
+
+
+.menuknap {
+    background-color: black;
+    padding: 3%;
+    font-size: 120%;
+}
+
+.eventmenuknap {
+    background-color: black;
+    padding: 3%;
+    font-size: 120%;
+}
+
+.knap2 {
+    font-size: 120%;
+}
+.knap {
+    display:none;
+    font-size: 120%;
+}
+
+/*EVENTKNAPPER SLUT*/
+
+/*STYLE TIL TEKST PÅ BILLEDER*/
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+
+.centered1, .centeredforside, .centered, .centeraside{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px black;
+}
+
+.centeredforside {font-size: 10px;}
+/*STYLE TIL TEKST PÅ BILLEDER SLUT*/
+
+
+/*EVENTBILLEDE OG HISTORIE BILLEDE*/
+.eventbillede, .historiebillede {
+    display: block;
+    margin: 0px auto;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+/*EVENT BILLEDET OG HISTORIE BILLEDET SLUT*/
+
+
+/*CENTREING AF TEKST PÅ FORSIDE*/
+
+.grid-forside h1 {
+        text-align: center;
+
+}
+.grid-forside p{
+    text-align: center;
+}
+
+.grid-forside .forsidep{margin-right: 2%;
+margin-left: 2%;}
+
+/*CENTREING AF TEKST PÅ FORSIDE SLUT*/
+
+/*SLUT FORSIDE*/
+
+
+
+/*OM OS*/
+
+.margin1 {
+    margin-left: 5%; margin-right: 5%;    
+}
+
+.omos {
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 2%;
+}
+
+
+/*SLUT OM OS*/
+
+
+/*MENU*/
+
+.center{
+    text-align: center;
+}
+.white{
+    color: #fff;
+}
+
+.center p {
+    margin: 2%;
+}
+.center .h1, .p{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+ .baggrundsfarve{
+        background-color: white;}
+.baggrundsfarve2{
+    background-color: #2d2c2c;}
+    .margin{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+/*SLUT MENU*/
+
+/*EVENT*/
+.enkeltevents p {
+    line-height: 26px;
+    margin: 4%;
+}
+
+
+/*grid event til mobil, da rækkefølgen skulle være anderledes end den oprindelige*/
+
+.grid-event {
+    display: grid;
+    grid-template-areas: 'header' 'storimg' 'intro' 'aside' 'img1' 'img2' 'img3' 'img4' 'img5' 'img6' 'footer';
+}
+
+/*grid til mobil slut*/
+
+
+
+/*det store billede og lidt aside styles mobil*/
+
+.billede1,
+.jazzbillede {
+    width: 100%;
+}
+
+
+
+
+#asideekstra {
+    display: none;
+}
+
+.ugentlig {
+    display: none;
+}
+
+
+/*det store billede og lidt aside (.ugentlig) styles mobil slut*/
+
+
+
+/*eventkalenderen*/
+
+.baggrund {
+    background-color: black;
+    padding: 10%; 
+    color: white;
+    font-size: 150%;
+}
+
+.eventimg {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    position: relative;
+    text-align: center;
+}
+
+
+.eventinfo {
+    background-color: #2d2c2c;
+    color: white;
+    margin: 10%;
+    padding: 3%;
+    margin-top: 2%;
+}
+
+
+.eventsdiv {
+    width: 100%;
+}
+
+.grid-event h3 {
+    text-align: center;
+}
+
+
+.enkeltevents a:link {text-decoration: none; color: red;}
+
+.forside3 a, .forside5 a, .forside4 a, .forside6 a, .forside7 a, .forside8 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*eventkalenderen slut*/
+
+
+
+/*"kommende events h3*/
+
+.event3 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/*"kommende events" h3 slut*/
+
+
+/*de enkelte events info mobil*/
+
+.enkeltevents h2 {text-align: center; font-size: 30px;}
+.enkeltevents h3 {text-align: center; font-size: 22px;}
+.enkeltevents img {width: 100%;}
+
+ .credit {font-size: 12px; margin: 10%;}
+/*SLUT EVENT*/ 
+
+
+/*KONTAKT*/
+
+.telefon {
+    font-size: 150%;
+    font-family: "roboto slab";
+        
+}
+.icon{
+    width: 20%;
+    margin: 2%
+}
+.mainkontakt{
+    text-align: center;
+}
+
+#mobil {
+    display: block;
+}
+#desktop{
+    display: none;
+}
+
+iframe {width: 80%; border: 0px;}
+/*SLUT KONTAKT*/
+
+
+/*FOOTER*/
+#icon img {
+    width: 50px;
+    
+    margin: 12px;
+}
+
+ .footer {
+    background-color: #2d2c2c;
+    text-align: center;
+    color: white;
+
+}
+
+.footer
+h3 {
+    text-transform: uppercase;
+}
+
+.footer
+p {
+    text-transform: none;
+    
+}
+
+.footer {
+    padding-top: 2%;
+}
+
+
+
+
+
+/*FOOTER SLUT*/
+    
+
+/*----------------------------STYLING AF MIN NYE FORSIDE-------------------------*/
+
+.dagellernat h1{
+    text-align: center;
+}
+
+
+
+
+
+/*------------------------------------Styling til KUN MOBIL!------------------------------------*/
+
+/*HEADER MOBIL*/
+@media(max-width: 767px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    
+    #toggle:checked + .menu {
+        display: block;
+    }
+    .nav {
+        position: relative;
+        z-index: 2;
+    } 
+  
+    /*SLUT HEADER MOBIL*/
+    
+   
+    
+    /*FORSIDE*/
+    
+    /*SKJULER BURGER BILLEDE*/
+    .forside6 {
+        display: none;
+    }
+
+/*SKJULER EKSTRA TEKST TIL HISTORIEN*/
+    .historie {
+        display: none;
+    }
+/*SLUT FORSIDE*/
+    
+    
+}
+
+
+/*-----------------------------tablet landskape------------------------------*/
+
+@media(min-width: 768px) {
+    
+    header img{
+        width: 230px;
+        margin-top: 3%;
+    }
+    .container1 {display: none;}
+    
+    .centeredforside {font-size: 15px;}
+    /*EVENT*/
+    
+    .grid-event {
+        display: grid;
+        grid-template-areas: 'header header header' 'storimg storimg storimg' 'intro intro intro' 'img1 img2 aside' 'img3 img4 .' 'img5 img6 .' 'footer footer footer';
+    }
+    
+    /*det store billede øverst + tekst*/
+   
+    .jazzbillede {
+        display:none;
+    }
+    
+    .jazzbilledea {
+        display: block;
+        width: 100%;
+    }
+
+    .centered h1 {
+        font-size: 60px;
+    }
+
+    /*det store billede øverst + tekst slut*/
+    
+    
+    /*eventkalender*/
+    .eventkalender {
+        
+        
+        padding: 2%;
+        margin-top: 2%;
+    }
+    
+    .enkeltevents p {margin-left: 10%; margin-right: 10%; margin-bottom: 5%; margin-top: 5%;}
+
+    /*eventkalender slut*/
+    
+    
+    /*aside*/
+    .ugentlig {
+        background-color: #e3e2df;
+    }
+
+    .grid-event > .event7 {
+        width: 90%;
+    }
+    
+.centeraside {
+     position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: none;
+    text-shadow: none;
+    background-color: #2d2c2c;
+    
+    text-align: center;
+    
+    }
+    
+    
+.container {
+    color: white;
+}
+
+    .ugentlig {
+        display: block;
+    }
+
+    #asideekstra {
+        display: block;
+    }
+
+    /*aside slut*/
+    
+    
+    /*de enkelte events info*/
+
+
+.enkeltevents img {width: 60%; display: block; margin-left: auto; margin-right: auto;}
+    .enkeltevents p {text-align: center;}
+/*SLUT EVENT*/ 
+    
+    
+    
+    /*OM OS*/
+    
+    .omos {
+        width: 90%;
+    }
+    
+    
+    /*SLUT OM OS*/
+    
+    
+   /*FOOTER TABLET OG DESKTOP*/ 
+   
+    
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: space-around;
+       background-color: #2d2c2c; 
+    } 
+    
+    /* SLUT FOOTER TABLET OG DESKTOP*/
+    
+    /*KONTAKT TABLET OG DESKTOP*/
+    #mobil{display: none;}
+    #desktop{
+        display: block; }
+    .icon{
+    width: 10%;
+    
+}
+    /*SLUT KONTAKT TABLET OG DESKTOP*/
+}
+
+   
+  
+
+   
+    
+    
+
+
+
+/*------------------------------Laptop og derover----------------------------------*/
+
+@media(min-width: 1024px) {
+    
+     header img{
+        width: 295px;
+         margin-top: 2%
+    }
+    
+      .menu a:hover { color: #e56b63;
+        text-shadow: 0px 0px 10px #a62e26,
+        5px 5px 10px #a62e26,
+        0px 0px 20px #a62e26,
+        0px 0px 30px #a62e26,
+        0px 0px 40px #a62e26,
+        0px 0px 50px #a62e26;
+        
+    }
+    
+       .container1 {display: block;}
+    
+    /*FORSIDE*/
+    .grid-forside {
+
+        display: grid;
+        width: 100%;
+        grid-template-areas: 
+            'header header' 
+            'main1 main1' 
+            'main2 main3' 
+            'main4 main5' 
+            'main7 main6' 
+            'footer footer';
+           
+grid-template-columns: 50% 50%;
+
+    }
+    
+    .centeredforside {font-size: 16px;}
+    
+    /*GØR AT EVENTBILLEDET FYLDER 70% AF SIN PLADS*/
+    
+     .grid-forside > .forside4 img {
+        width: 70%; padding-top: 2%; padding-bottom: 2%;
+    }
+ 
+    /*GØR AT HISTORIEBILLEDET FYLDER 70% AF SIN PLADS*/
+    
+    .grid-forside > .forside8 img {
+        width: 70%; padding-top: 2%; padding-bottom: 2%;
+    }
+
+
+
+
+   /*BURGER BILLEDE*/
+
+     .burger {
+
+        width: 100%;
+         
+    }
+    
+    .nachos {
+        width: 100%;
+    }
+
+    
+
+/*VISER BURGERBILLEDET PÅ DESKTOP*/
+    .forside6 {
+        display: block;
+    }
+/*VISER EKSTRA HISTORIE PÅ DESKTOP*/
+    .historie {
+        display: block;
+    }
+
+/*STYLE AF KNAPPER*/
+    .knap2 {
+        display: none;
+    }
+    
+    .knap {
+        display: block;
+    }
+    
+    .knap, .knap2 {
+        width: 30%;
+        margin-top: 10%;
+        
+    }
+/*SLUT FORSIDE*/
+   
+
+  
+
+
+    
+    
+   
+ 
+/*EVENT*/
+    .grid-event {
+        display: grid;
+        grid-template-areas: 
+            'header header header header' 
+            'storimg storimg storimg storimg' 
+            'intro intro intro intro' 
+            'img1 img2 img3 aside' 
+            'img4 img5 img6 aside' 
+            'footer footer footer footer';
+            
+            grid-template-columns: 25% 25% 25% 25%;
+            
+    }
+
+
+    /*TEST*/
+    .dagellernatfloat {
+       display: flex;
+    }
+    .billederneforside img {
+       width: 48%;
+        float: left;
+        margin: 10px;
+    }
+    
+    /*aside desktop*/
+   
+    #komevents {
+        margin-top: 5%;
+        margin-bottom: -3%; text-align:left; margin-left: 30%;
+    }
+
+    /*aside desktop slut*/
+    
+    
+    
+    /*eventkalender hover-effekt kun desktop*/
+    .eventinfo:hover {
+        color: #e56b63;
+        text-shadow: 0px 0px 10px #a62e26,
+        5px 5px 10px #a62e26,
+        0px 0px 20px #a62e26,
+        0px 0px 30px #a62e26,
+        0px 0px 40px #a62e26,
+        0px 0px 50px #a62e26;
+    }
+    
+    .eventimg:hover {opacity: 0.5;}
+    
+    .menuknap:hover, .eventmenuknap:hover, .knap:hover, .knap2:hover {
+        color: #e56b63;
+        text-shadow: 0px 0px 10px #a62e26,
+        5px 5px 10px #a62e26,
+        0px 0px 20px #a62e26,
+        0px 0px 30px #a62e26,
+        0px 0px 40px #a62e26,
+        0px 0px 50px #a62e26;
+    }
+    
+    
+    /*eventkalender hover-effekt kun desktop slut*/
+    
+    
+    /*øverste tekt på billede*/
+    .centered h1 {
+        font-size: 90px
+    }
+    /*øverste tekt på billede slut*/
+    
+    
+    
+        /*de enkelte events info mobil*/
+
+.enkeltevents h2 {
+    
+    text-align: center; font-size: 45px;}
+    
+.enkeltevents h3 
+    {text-align: center; font-size: 22px;}
+.enkeltevents img 
+    {width: 30%; display: block; margin-left: auto; margin-right: auto;}
+    
+   
+
+/*SLUT EVENT*/ 
+    
+    
+    /*OM OS*/
+    .grid-omos {
+        display: grid;
+        grid-template-areas: 'header header header header' 'main main main main' 'main1 main1 main2 main2' 'main4 main4 main3 main3' 'main5 main5 main3 main3' 'footer footer footer footer';
+            
+             
+    }
+    
+    .grid-omos > .omos3 {
+        margin-bottom: 10%;
+    }
+    
+    .grid-omos > .omos4 img {
+        width: 100%;
+        margin-top: 3%;
+        
+    }
+    
+    .grid-omos > .omos4 {
+        margin-bottom: 10%;
+        
+    }
+    
+    .grid-omos > .omos5 {
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .grid-omos > .omos6 img {
+        width: 100%;
+        margin-top: 9%;
+    }
+    /*OM OS SLUT*/
+    
+    
+    /*FOOTER*/
+    .icon {
+        width: 7%;
+    }
+    
+}
+    
+
